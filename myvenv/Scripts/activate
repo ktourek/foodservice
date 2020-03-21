@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\foodservice\myvenv"
+VIRTUAL_ENV="C:\Users\bansh\OneDrive\Documents\ISQA 3900\foodservice\myvenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

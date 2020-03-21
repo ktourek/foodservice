@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\foodservice\myvenv
+set VIRTUAL_ENV=C:\Users\bansh\OneDrive\Documents\ISQA 3900\foodservice\myvenv
 
 if not defined PROMPT set PROMPT=$P$G
 

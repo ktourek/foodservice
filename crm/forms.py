@@ -6,7 +6,6 @@ class CustomerForm(forms.ModelForm):
         model = Customer
         fields = ('cust_name', 'organization', 'role', 'bldgroom', 'account_number', 'address', 'city', 'state', 'zipcode', 'email','phone_number')
 
-
 class ServiceForm(forms.ModelForm):
    class Meta:
        model = Service

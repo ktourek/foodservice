@@ -54,7 +54,9 @@
                     <td>{{ service.setup_time }}</td>
                     <td>{{ service.cleanup_time }}</td>
                     <td>{{ service.service_charge }}</td>
-                    <td><a href="{% url 'crm:service_edit' pk=service.pk %}" class="btn btn-warning">Edit</a></td>
+                    <td><a href="{% url 'crm:service_edit' pk=service.pk %}"
+                        class="btn btn-warning">Edit</a>
+                    </td>
                     <td><a href="" class="btn btn-danger">Delete</a>
                     </td>
                 </tr>
@@ -64,7 +66,6 @@
         <div class="row">
             <a href="{% url 'crm:service_new' %}" class="row"><span class="btn btn-primary">Add Service</span></a>
         </div>
-   
     </div>
 </body>
 
